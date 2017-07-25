@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css?family=Frijole');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Artifika');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+body {
+    font-family: 'Artifika', serif;
+    color: #000000;
+    overflow-x: hidden;
+    font-size: 18px;
+    width: 100%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+
+/*NAVIGATION*/
+.navbar-default {
+    background-color: #000000;
+    border-color: transparent;
+    border: none;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+    color: #ed87bb;
+    font-family: 'Cabin Sketch', cursive;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+/*
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus,
+.navbar-default .navbar-header .navbar-brand:active {
+    color: #ed87bb;
+}
+*/
+
+.navbar-default .navbar-collapse {
+   border-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+    background-color: #ffffff;
+    border-color: #ed87bb;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Frijole', cursive;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+.navbar-default .nav > li > a {
+    font-family: 'Cabin Sketch', cursive;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus {
+    /*color: #000000;*/
+    color: #ed87bb;
+    outline: none;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #000000;
+  background-color: #ed87bb;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+/*HEADER*/
+.header-text h1 {
+    font-family: 'Frijole', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 180px;
+    color: #000000;
+}
+
+.header-text p {
+    font-family: 'Cabin Sketch', cursive;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+header .header-design {
+    display: table;
+    width: 100%;
+    height: 100%;    
+}
+
+header .header-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*SOCIAL*/
+.social {
+    font-size: 30px;
+    margin-top: 30px;
+}
+.social a {
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 10px;
+    border-radius: 100%;
+}
+.social a:hover,
+.social a:focus {
+    color: #ed87bb;
+}
+
+
+/*SECTION ABOUT*/
+#about {
+    margin-top: 150px;
+}
+.img-header img {
+    width: 500px;
+    height: 750px;
+}
+.biography .bio-content-header{
+    margin-top: 130px;
+}
+.biography .bio-content-paragraph h2 {
+   font-family: 'Homemade Apple', cursive;
+   font-weight: 900;
+   font-size: 46px;
+   color: #ed87bb;
+   text-transform: capitalize;
+   letter-spacing: 0.02em;
+   line-height: 1;
+   margin-top: 50px;
+}
+.biography .bio-content-paragraph p {
+   line-height: 2;
+   font-weight: 300;
+   margin-bottom: 2.5vmin;
+   font-size: 16px; 
+   margin-top: 50px;
+}
+
+.biography .bio-content-paragraph p span {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 900;
+  font-size: 26px;
+  color: #ed87bb;
+  text-align: center;
+}
+
+/* SECTION SKILLS*/
+.skills-design {
+  margin-top: 160px;
+}
+.skills-design h1 {
+  font-family: 'Cabin Sketch', cursive;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+}
+
+.skill {
+        margin-bottom: 35px;
+        position: relative;
+      overflow-x:hidden;
+      margin-top: 30px;
+      
+    }
+    .skill > p {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1a1716;
+        margin: 0;
+        font-family: 'Cabin Sketch', cursive;
+    }
+    .skill:before{
+        width: 100%;
+        height: 5px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: #959595;
+        bottom: 0;
+    }
+    .skill-bar {
+        width: 100%;
+        height: 5px;
+        background:#ed87bb;
+        display: block;
+        position: relative;
+    }
+
+    /* SKILL 1 */
+    .skill1{
+        width: 95%;
+      
+    }
+    .skill-bar span{
+        position: absolute;
+        border-top: 5px solid #ed87bb;
+        top: -30px;
+        padding: 0;
+        font-size: 18px;
+        padding: 3px 0;
+        font-weight: 500;
+    }
+    .skill-bar {
+        position: relative;
+      
+    }
+
+    .skill1 .skill-count1 {
+        right: 0;
+    }
+    /* SKILL 2 */
+    .skill2{
+        width: 85%;
+    }
+
+    .skill2 .skill-count2 {
+        right: 0;
+    }
+    /* SKILL 3 */
+    .skill3{
+        width: 75%;
+    }
+    .skill3 .skill-count3 {
+        right: 0;
+    }
+
+    /* SKILL 4 */
+    .skill4{
+        width: 65%
+    }
+
+    .skill4 .skill-count4 {
+        right: 0;
+    }
+
+    /* SKILL 5 */
+    .skill5{
+        width: 80%;
+    }
+
+    .skill5 .skill-count5 {
+        right: 0;
+    }
+
+    /* SKILL 6 */
+    .skill6{
+        width: 90%
+    }
+
+    .skill6 .skill-count6 {
+        right: 0;
+    }
+
+
+
+/*CONTACT-SECTION*/
+.contact-form {
+  margin-top: 160px;
+  text-align: center;
+}
+.contact-form h1 {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 60px;
+  color: #000000;
+}
+.contact-form h5 {
+  margin: 0 auto;
+  margin-top: 60px;
+  font-weight: 900;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.font {
+  font-size: 20px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #ED87BB;
+}
+.form {
+  text-align: center; 
+  -webkit-animation: bounce 1.5s infinite;
+  -moz-animation: bounce 1.5s infinite;
+  animation: bounce 1.5s infinite;
+}
+.shadow{
+  box-shadow: 0px 0px 20px 5px #AAA;
+  opacity: 0.5;
+  border-radius: 100px;
+  width: 45%; 
+  margin: 40px auto 0 auto;
+  padding: 0 10px;  
+  -webkit-animation: shadow 1.5s infinite;
+}
+.field-in {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 50%;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.name {
+  background-color: #c0c5ce;  
+}
+.name:focus, .email:focus, .message:focus{
+  outline: none;
+  padding:15px;
+}
+.email {
+  background-color: #c0c5ce;  
+}
+.message {   
+  background-color: #c0c5ce;
+  overflow: hidden;
+  height: 300px;
+}
+.submit{
+  border-radius:5px;
+  padding:10px;
+  background-color: #000000;  
+  border: none; 
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.submit:hover{
+  -webkit-transform: translate(0, 4px); 
+  box-shadow: inset 0px 0px 10px 10px #c0c5ce;
+  cursor: pointer;
+}
+::-webkit-input-placeholder {
+   color: #ED87BB;
+}
+
+:-moz-placeholder { 
+   color: #ED87BB;
+}
+
+::-moz-placeholder { 
+   color: #ED87BB; 
+}
+
+:-ms-input-placeholder {  
+   color: #ED87BB;  
+}
+
+@-webkit-keyframes bounce{
+  0%{
+    
+  }
+  50%{
+    -webkit-transform: translate(0, 8px);
+  }
+}
+@-moz-keyframes bounce{
+  0%{
+    
+  }
+  50%{
+    -moz-transform: translate(0, 8px);
+  }
+}
+@keyframes bounce{
+  0%{
+    
+  }
+  50%{
+    transform: translate(0, 8px);
+  }
+}
+@-webkit-keyframes shadow{
+  0%{
+    
+  }
+  50%{
+    opacity: 0.8;
+    width: 50%;
+  }
+}
+@-moz-keyframes shadow{
+  0%{
+    
+  }
+  50%{
+    opacity: 0.8;
+    width: 50%;
+  }
+}
+@keyframes shadow{
+  0%{
+    
+  }
+  50%{
+    opacity: 0.8;
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.footer-section {
+  font-size: 30px;
+  margin-top: 200px;
+}
+.footer-section .footer a {
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 10px;
+  border-radius: 100%;
+}
+.footer-section .footer a:hover {
+  color: #ed87bb;
+}
+.footer-section .footer-text i {
+  color: #ed87bb;
+}
+.footer-section .footer-text p span {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ed87bb;
+}
+.footer-section .footer-text p {
+  margin-top: 30px;
+  color: #000000;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 20px;
+}
