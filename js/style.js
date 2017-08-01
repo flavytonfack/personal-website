@@ -52,12 +52,19 @@ $( document ).ready(function() {
   var speed = 75;
   var delay = $('#header-h1').text().length * speed + speed;
   typeEffect($('#header-h1'), speed);
+
+
   /*
   setTimeout(function(){
     $('#header-p').css('display', 'inline-block');
     typeEffect($('#header-p'), speed);
   }, delay);
   */
+
+
+
+
+  
 });
 
 (function($){
